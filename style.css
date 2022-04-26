@@ -1,0 +1,234 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#box{
+
+	height: 100vh;
+	position:relative;
+
+	background-image: url("images/ppc-floqast-banner.jpg") ;
+	background-size:cover;
+}
+
+.side-panel{
+
+	background-image: url("images/background.png");
+	background-size: cover;
+	width: 927px;
+	height: 222px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 230px;
+	position:relative;
+	top:125px;
+}
+
+.side-panel h4{
+	font-size: 32px;
+	color: #3f3f3f;
+	position: relative;
+	margin: 0;
+	font-weight: 400;
+	top: 5px;
+	left: 10px;
+
+
+
+}
+
+.logo-container{
+	display:flex;
+	align-items: flex-end ;
+
+}
+
+
+div.column{
+	float: left;
+	margin-top: 120px;
+	display:flex;
+
+}
+div#first{
+	background-color:green;
+	margin-left: 40px;
+}
+div#second{
+	background-color:white
+
+
+}
+
+.heading-left{
+	font-size: 1.5rem;
+	color: #85bf3a;
+
+}
+
+h1 {
+	font-size: 48px;
+	color: 85bf3a;
+	line-height: 36px;
+	letter-spacing: -1px;
+	font-weight: 700;
+	margin: 15px 0;
+
+}
+
+.side-panel h4, 
+h1, 
+.side-panel p, 
+.schedule form h3,
+body{
+	font-family: 'Roboto', sans-serif; 
+	
+}
+
+.side-panel h1,
+.side-panel p ,
+.size-panel h4{
+	font-style: italic;
+
+}
+
+.paragraph{
+	font-size: 32px;
+
+
+}
+.schedule-demo h4{
+	font-size: 28px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.schedule-demo p{
+	font-size:18px
+
+}
+
+
+.schedule{
+	width:100%;
+	margin:0 auto;
+	background:white;
+	border-radius: 5px;
+	height:106px;
+	position:absolute;
+	max-width: 940px;
+	left:0;
+	right:0;
+	bottom: 50px;
+	display: flex;
+
+}
+
+.schedule-demo{
+	background: url("images/greentest.png");
+	background-repeat: none;
+	background-size:cover;
+	width:310px;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color:white;
+}
+
+.schedule form h3{
+	color: #6d6e70;
+	font-size: 22px;
+	font-weight: bold;
+	font-style: normal;
+	text-align: center;
+	margin-top: 20px;
+
+}
+
+.schedule form h3 span{
+	color: #85bf3a;
+}
+
+.submit-button{
+	background-color:  #85bf3a;
+	cursor: pointer;
+	color:white;
+	border: none;
+}
+
+
+.schedule form div{
+	margin-top: 15px;
+	padding-left: 20px;
+}
+
+.schedule form input[type=text], 
+.schedule form input[type=email]{
+	border: 1px solid #dddddd;
+	border-radius: 5px ;
+	height: 32px;
+	padding-left: 15px;
+	width: 179px;
+	
+}
+
+.schedule form input[type=text]::-webkit-input-placeholder,
+.schedule form input[type=email]::-webkit-input-placeholder { /* Edge */
+	color: #b8b8b8;
+}
+.schedule form input[type=text]:-ms-input-placeholder,
+.schedule form input[type=email]:-ms-input-placeholder { /* Internet Explorer 10-11 */
+	color: #b8b8b8;
+}
+.schedule form input[type=text]::placeholder,
+.schedule form input[type=email]::placeholder {
+	color: #b8b8b8;
+}
+
+.submit-button{
+	height: 32px;
+	border-radius: 5px ;
+	width: 213px;
+	box-shadow: inset 0 0 2px #6f973b;
+}
